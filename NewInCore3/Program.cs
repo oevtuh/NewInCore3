@@ -11,6 +11,10 @@ namespace NewInCore3
         static void Main(string[] args)
         {
             NullableRefsExample.Demo();
+            PatternMatchingDemo.DoPositionalPatternDemo();
+            PatternMatchingDemo.DoPropertyPatternDemo();
+            PatternMatchingDemo.DoSwitchExpressionDemo();
+            PatternMatchingDemo.DoTupleExpressionDemo();
         }
     }
 }
